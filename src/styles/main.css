@@ -1,0 +1,41 @@
+:root{
+    --cor-principal:#5b418d;
+    --cor-secundaria:#E04600;
+}
+
+.navbar-brand-logo{
+    max-height: 50px;
+}
+
+.nav-pills .nav-link.active, .btn-primary{
+    background-color:var(--cor-secundaria);
+    border: var(--cor-secundaria);
+    opacity: 80%;
+    transition: .5s ease;
+    color: white;
+}
+.nav-pills .nav-link.active:hover, .btn-primary:hover{
+    background-color:var(--cor-secundaria);
+    opacity: 100%;
+}
+
+#hero{
+    background-image: url(../images/hero/hero.png);
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.alinhamento{
+    height: 800px;
+}
+.titulo{
+    font-size: 55px;
+    color: white;
+}
+.descricao{
+    color: white;
+}
+
+#quemsomos{
+    height: 100vh;
+}
