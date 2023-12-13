@@ -28,14 +28,16 @@
 .alinhamento{
     height: 800px;
 }
-.titulo{
-    font-size: 55px;
+.titulo--hero, .descricao--hero{
     color: white;
+}
+.titulo{
+    font-size: 50px;
 }
 .descricao{
-    color: white;
+    text-align: justify;
 }
 
-#quemsomos{
-    height: 100vh;
+#direcionandoTrafego, #impulsioneResultados{
+    padding-top: 100px;
 }
