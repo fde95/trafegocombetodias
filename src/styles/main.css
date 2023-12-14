@@ -10,6 +10,34 @@ header{
     box-shadow:10px 10px 20px rgba(0,0,0,.2);
 }
 
+.btn-contorno{
+    border:3px solid var(--cor-secundaria);
+    color: white;
+    font-weight: bold;
+    box-shadow:10px 10px 20px rgba(0,0,0,.2);
+}
+.btn-contorno:hover{
+    border:3px solid var(--cor-secundaria);
+    background-color: var(--cor-secundaria);
+    color: white;
+}
+.btn-contato{
+    border:3px solid var(--cor-principal);
+    background-color: var(--cor-principal);
+    color: white;
+    opacity: 70%;
+    transition: .2s;
+    font-weight: bold;
+    box-shadow:10px 10px 20px rgba(0,0,0,.2);
+}
+.btn-contato:hover{
+    border:3px solid var(--cor-principal);
+    background-color: var(--cor-principal);
+    opacity: 100%;
+    color: white;
+    font-weight: bold;
+}
+
 .nav-pills .nav-link.active, .btn-primary{
     background-color:var(--cor-secundaria);
     border: var(--cor-secundaria);
@@ -51,7 +79,7 @@ header{
     z-index:10;
     top:0;
     left:0;
-    background:rgba(0, 0, 0, 0.603)
+    background:rgba(0, 0, 0, 0.80)
 }
 
 
@@ -79,7 +107,6 @@ header{
 
 
 #hero .caption {
-
     position:relative;
     z-index:20;
     text-align:center;
@@ -93,12 +120,15 @@ header{
 .titulo--hero{
     font-size: 80px;
     font-weight: bold;
-    color: white;
+    color: #e4e4e4;
+    text-align: start;
 }
 .descricao--hero{
     font-size: 20px;
-    color: white;
+    color: #e4e4e4;;
+    text-align: justify;
 }
+
 
 .alinhamento{
     height: 800px;
@@ -110,6 +140,9 @@ header{
 .descricao{
     text-align: justify;
 }
+.destaque{
+    color: var(--cor-secundaria);
+}
 
 #impulsioneResultados{
     background-color: #f8f9fa;
@@ -120,6 +153,9 @@ header{
 }
 #impulsioneResultados,#pacotes{
     padding: 100px 0;
+}
+.imagem{
+    border-radius: 16px;
 }
 
 .diferenciais-card{
@@ -157,15 +193,9 @@ header{
     .titulo--hero{
         font-size: 40px;
     }
-    .hero-container{
-        padding: 0 50px;
-    }
 }
 @media (min-width:768px) and (max-width: 1200px){
     .titulo--hero{
         font-size: 60px;
-    }
-    .hero-container{
-        padding: 0 50px;
     }
 }
