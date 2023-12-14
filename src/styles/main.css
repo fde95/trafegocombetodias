@@ -10,14 +10,14 @@ header{
     box-shadow:10px 10px 20px rgba(0,0,0,.2);
 }
 
-.nav-pills .nav-link.active, .btn-primary{
+.nav-pills .nav-link.active, .btn-primary, .activo{
     background-color:var(--cor-secundaria);
     border: var(--cor-secundaria);
     opacity: 80%;
     transition: .5s ease;
     color: white;
 }
-.nav-pills .nav-link.active:hover, .btn-primary:hover{
+.nav-pills .nav-link.active:hover, .btn-primary:hover, .activo{
     background-color:var(--cor-secundaria);
     opacity: 100%;
 }
