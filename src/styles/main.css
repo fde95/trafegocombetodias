@@ -10,15 +10,28 @@ header{
     box-shadow:10px 10px 20px rgba(0,0,0,.2);
 }
 
-.nav-pills .nav-link.active, .btn-primary, .activo{
+.nav-pills .nav-link.active, .btn-primary{
     background-color:var(--cor-secundaria);
     border: var(--cor-secundaria);
-    opacity: 80%;
     transition: .5s ease;
     color: white;
+    font-weight: bold;
 }
-.nav-pills .nav-link.active:hover, .btn-primary:hover, .activo{
+.nav-pills .nav-link.active:hover, .btn-primary:hover{
     background-color:var(--cor-secundaria);
+    opacity: 100%;
+}
+.activo{
+    background-color:var(--cor-principal);
+    border: var(--cor-principal);
+    opacity: 80%;
+    font-weight: bold;
+    color: white;
+}
+.activo:hover{
+    background-color:var(--cor-principal);
+    color: white;
+    transition: .5s ease;
     opacity: 100%;
 }
 
@@ -38,7 +51,7 @@ header{
     z-index:10;
     top:0;
     left:0;
-    background:rgba(0,0,0,0.8)
+    background:rgba(0, 0, 0, 0.603)
 }
 
 
@@ -114,8 +127,8 @@ header{
     color: white;
     border-radius: 16px;
     box-shadow:10px 10px 20px rgba(0,0,0,.5);
-    transition: .5s ease;
     cursor: default;
+    transition: .5s ease;
 }
 .diferenciais-card:hover{
     scale: 1.05;
