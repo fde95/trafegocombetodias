@@ -1,5 +1,5 @@
 :root{
-    --cor-principal:#5b418d;
+    --cor-principal:#4c0bce;
     --cor-secundaria:#E04600;
 }
 
@@ -23,11 +23,57 @@ header{
 }
 
 #hero{
-    background-image: url(https://via.placeholder.com/1588x800);
-    height: 800px;
-    background-size: cover;
-    background-repeat: no-repeat;
+    max-height:100vh;
+    height: 100%;
+    width:100%;
+    background:red;
+    display:flex;
+    align-items:center;
+    justify-content: center;
 }
+#hero::after {
+    width:100%;
+    height:100%;
+    content: '';
+    position:absolute;
+    z-index:10;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.7)
+}
+
+
+#hero video {
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:5;
+    object-fit:cover;
+    font-family:'object-fit: cover';
+}
+
+
+#hero .texture {
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:15;
+    background:url('../texture.png');
+}
+
+
+#hero .caption {
+
+    position:relative;
+    z-index:20;
+    text-align:center;
+    color:#ffffff;
+}
+
 .alinhamento{
     height: 800px;
 }
@@ -45,12 +91,12 @@ header{
     background-color: #f8f9fa;
 }
 
-#direcionandoTrafego, #impulsioneResultados, #diferenciais{
+#direcionandoTrafego, #impulsioneResultados, #diferenciais, #pacotes{
     padding: 100px 0;
 }
 
 .diferenciais-card{
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-principal);
     color: white;
     border-radius: 16px;
     box-shadow:10px 10px 20px rgba(0,0,0,.5);
@@ -62,8 +108,7 @@ header{
 }
 .btn-secondary{
     background-color: #4c0bce;
-    border: 2px solid white;
-    opacity: 80%;
+    border: 2px solid #4c0bce;
     transition: .5s ease;
     color: white;
 }
@@ -71,4 +116,12 @@ header{
     background-color: #4c0bce;
     border: 2px solid white;
     opacity: 100%;
+}
+.titulo-diferenciais{
+    margin-bottom: 90px;
+}
+
+#pacotes{
+    background-color: var(--cor-secundaria);
+    color: white;
 }
