@@ -3,9 +3,6 @@
     --cor-secundaria:#E04600;
     --background-faq:#e04700dc;
 }
-body{
-    overflow-x: hidden;
-}
 
 .navbar-brand-logo{
     max-height: 50px;
