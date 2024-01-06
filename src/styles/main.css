@@ -1,7 +1,10 @@
 :root{
     --cor-principal:#4c0bce;
     --cor-secundaria:#E04600;
-    --background-faq:#e04700c9;
+    --background-faq:#e04700dc;
+}
+body{
+    overflow-x: hidden;
 }
 
 .navbar-brand-logo{
@@ -135,7 +138,7 @@ header{
 #direcionandoTrafego, #impulsioneResultados, #diferenciais{
     margin-bottom: 100px;
 }
-#impulsioneResultados,#pacotes,#contato{
+#impulsioneResultados,#pacotes,#faq{
     padding: 100px 0;
 }
 .imagem{
@@ -186,6 +189,32 @@ header{
 .pacotes--list-item{
     margin-bottom: 8px;
 }
+#clientes{
+    background-color: var(--cor-secundaria);
+    color: white;
+}
+#clientes{
+    padding-bottom: 100px;
+}
+.clientes--card{
+    padding: 30px;
+}
+.clientes--carrossel--card{
+    text-align: start;
+}
+.clientes--carrossel--card--estrelas{
+    font-size: 12px;
+}
+.clientes--carrossel--card--titulo{
+    font-size: 20px;
+}
+.clientes--carrossel--card--avatar{
+    border-radius: 100px;
+}
+.carrossel--item--imagem{
+    opacity: 60%;
+}
+
 #contato{
     background-color: var(--cor-principal);
     color: white;
@@ -225,15 +254,25 @@ header{
     background-color: var(--cor-principal);
     color: white;
 }
-#faq hr{
+#contato hr{
     margin: 0 0 100px;
 }
-.accordion-button:not(.collapsed) {
-    color: #F8F9FA;
-    background-color: var(--background-faq);
-    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
-}
 
+#accordionPanelsStayOpenExample{
+    padding: 0 130px;
+}
+.accordion-button{
+    background-color: #dadada;
+}
+.accordion-item{
+    border: none;
+    border-bottom: 1px solid #F8F9FA;
+}
+.accordion-body{
+    background-color: var(--cor-principal);
+    color: white;
+    border: none;
+}
 
 #whatsapp{
     position: fixed;

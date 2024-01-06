@@ -37,3 +37,9 @@ function startTyping() {
 }
 
 startTyping();
+
+// $('.symbol__carousel').slick({
+//     infinite: true,
+//     slidesToShow: 3,
+//     slidesToScroll: 3,
+// });
