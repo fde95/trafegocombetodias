@@ -302,10 +302,11 @@ header{
 .linkDev{
     text-decoration: none;
     color: white;
-    font-size: 12px;
+    font-size: 16px;
 }
 .devName{
     font-weight: bold;
+    font-family: "Courier Prime", monospace;
 }
 
 @media (max-width:767px){
@@ -331,6 +332,15 @@ header{
     .diferenciais-card-destaque{
         scale: 1;
     }
+    #accordionPanelsStayOpenExample{
+        padding: 0;
+    }
+    #faq{
+        padding-bottom: 30px;
+    }
+    .contato--info{
+        margin-top: 30px;
+    }
 }
 @media (min-width:768px) and (max-width: 1200px){
     .titulo--hero{
@@ -338,5 +348,11 @@ header{
     }
     .diferenciais-card-destaque{
         scale: 1;
+    }
+    .separador--pacotes{
+        margin-top: 48px;
+    }
+    .contato--list--item--link{
+        font-size: 16px;
     }
 }
